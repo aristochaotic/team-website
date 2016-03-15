@@ -47,6 +47,12 @@ a:hover {
 }
 
 
+h1.
+
+p.lead {
+	padding-top: 30%;
+}
+
 
 /*
  * Base structure
@@ -167,6 +173,7 @@ body {
     position: fixed;
     top: 0;
   }
+  
   .mastfoot {
     position: fixed;
     bottom: 0;
