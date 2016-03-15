@@ -22,6 +22,7 @@ a:hover {
 #about{
     width: 100%;
     margin: 0 auto;
+    background-image: url("../../img/star_background.jpg");
 }
 #robots{
     width: 100%;
@@ -47,10 +48,12 @@ a:hover {
 }
 
 
-h1.{}
+h1 {
+	padding-top:30%;
+}
 
 p.lead {
-	padding-top: 30%;
+	padding-top: 60%;
 }
 
 
@@ -194,6 +197,6 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 50%;
   }
 }
