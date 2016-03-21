@@ -8,7 +8,7 @@
  
  /*Custom code*/
  
- 
+ @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,300);
 .sponsorimg{
     width:22%;
     height:auto;
@@ -29,6 +29,39 @@
 
 .table thead th {
   text-align: center;
+}
+
+#robots > .robots-section {
+    position: relative;
+    background: url(../img/blurredDesignLab.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+#robots > .robots-section:after {
+   content: "";
+   position: absolute;
+   display: block;
+   top: 0; right: 0; bottom: 0; left: 0;
+   background: rgba(0,0,0,0.5);
+  
+}
+
+.robot-text {
+    z-index: 1;
+}
+
+.sponsorimg {
+    margin: 5px;
+}
+
+.sponsor-class {
+    margin: 35px 0;
+}
+
+#about .row {
+    position: relative;
 }
 
 /*Normal code*/
