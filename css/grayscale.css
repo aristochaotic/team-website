@@ -18,6 +18,13 @@
 
 }
 
+.robotimg{
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:inline-block;
+}
+
 .smallsponsorimg{
     width:15%;
     height:auto;
